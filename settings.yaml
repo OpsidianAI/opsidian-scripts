@@ -1,0 +1,8 @@
+lambda_functions:
+  HelloWorld:
+    OpsidianCommand: hello_world
+    CodeLocation: hello_world
+    Handler: code.lambda_handler
+    Runtime: python2.7
+    Timeout: 60
+    MemorySize: 128
